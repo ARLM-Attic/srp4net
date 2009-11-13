@@ -39,7 +39,7 @@
 	<script type="text/javascript" src="js/misc.js"></script>
 </head>
 <body>
-    <span style="color:Red;">You should check your debug console (e.g. watch the Console tab in Firebug if using Firefox) to see what's going on</span>
+    <span style="color:Red;">If you're not seeing any progress here, you should check your debug console (e.g. watch the Console tab in Firebug if using Firefox) to see what's going on</span>
     <script type="text/javascript">
         $(document).ready(function()
         {

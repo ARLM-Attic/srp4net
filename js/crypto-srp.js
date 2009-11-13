@@ -247,8 +247,14 @@ $u.crypto.srp =
     {
         $.debug(true);
 
+        var user = 'user1';
+        var password = 'sameverycomplexpassword';
+        
+        $.log("INFO: Running the sample for account '" + user + "' and password '" + password + "'");
+        $.log("INFO: We'll execute two steps: 1. we will create the account; 2. we will authenticate on that account");
+        
         $.log("Adding the account");
-        this.AddAccount('user1', 'sameverycomplexpassword', function(error, result)
+        this.AddAccount(user, password, function(error, result)
         {
             if (0 == error)
             {
@@ -256,7 +262,7 @@ $u.crypto.srp =
             }
             else
             {
-                alert('AddAccount failed: error = ' + error);
+                alert('AddAccount failed: error = ' + error + '\nThis should be the normal behavior when executing the second time this example (because the account was created at the first execution)');
             }
         });
 
