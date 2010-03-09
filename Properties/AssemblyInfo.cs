@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("srp4net")]
-[assembly: AssemblyDescription("A Javascript/C# .NET library for implementing the SRP authentication protocol")]
+[assembly: AssemblyDescription("A JavaScript/C# .NET library for implementing the SRP authentication protocol")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Bitground Software")]
 [assembly: AssemblyProduct("srp4net")]

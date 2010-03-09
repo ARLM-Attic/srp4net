@@ -1,9 +1,9 @@
-﻿Sample project that demonstrates the SRP authentication protocol in Javascript/C# .NET
+﻿Sample project that demonstrates the SRP authentication protocol in JavaScript/C# .NET
 
 Library:		srp4net
 Version:		1.0
 Implementation:	SRP variant 6a with SHA2 digest (instead of SHA1 from the original specification) on 512 bits
-Description:	Secure Remote Password protocol implementation in Javascript and C#
+Description:	Secure Remote Password protocol implementation in JavaScript and C#
 RFC:			http://www.ietf.org/rfc/rfc2945.txt
 Details:		http://srp.stanford.edu/ndss.html
 Author:			Sorin Ostafiev (http://code.google.com/p/srp4net/)
