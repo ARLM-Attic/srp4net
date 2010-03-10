@@ -86,7 +86,7 @@ namespace srp4net.Helpers
                 // b = random between 2 and N-1
                 {
                     b = new BigInteger();
-                    //TODO: perhaps here use a better random generator
+                    //[TODO] perhaps here use a better random generator
                     b.genRandomBits(_nbits, new Random((int)DateTime.Now.Ticks));
 
                     if (b >= N)

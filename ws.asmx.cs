@@ -62,7 +62,7 @@ namespace srp4net
 
         }
 
-        // TODO: perhaps this should stay in the DataModel
+        // [TODO] perhaps this should stay in the DataModel
         static List<AuthData> auth = new List<AuthData>();
 
         public class AuthData
@@ -149,7 +149,7 @@ namespace srp4net
                  where (x.user == user) && (x.uniq == uniq1)
                  select x).First();
 
-            // TODO: in the real life here will check if the user exists...
+            // [TODO] in the real life here will check if the user exists...
 
             Trace.TraceInformation("We've got from auth: v={0} u={1} A={2} b={3} B={4}", q.v, q.u, q.A, q.b, q.B);
 
@@ -168,14 +168,14 @@ namespace srp4net
             {
                 // so far, from server's point of view, everything is ok
                 // we've just authenticated the client
-                // TODO: now we should do something smart here, like going into the private section
+                // [TODO] now we should do something smart here, like going into the private section
                 Trace.TraceInformation("Server says: we do trust the client; it's authenticated");
             }
             else
             {
-                // TODO: panic; the authentication failed
+                // [TODO] panic :) the authentication failed
                 Trace.TraceInformation("Server says: we do NOT trust the client");
-                throw new Exception("TODO: Server says: we do NOT trust the client; now do something cool here");
+                throw new Exception("Server says: we do NOT trust the client; now do something cool here");
             }
 
             // remove it from the queue
