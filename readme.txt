@@ -13,7 +13,7 @@ The most important libraries used by this project:
      - jsSHA.js - A JavaScript implementation of the SHA family of hashes, as defined in FIPS PUB 180-2
              originally written by Brian Turek http://jssha.sourceforge.net/
              changed by Atsushi Oka (http://ats.oka.nu/titaniumcore/js/crypto/jsSHA.js, several functions taken from Paul Johnson)
-             changed by me (http://code.google.com/p/srp4net/)
+             changed by Sorin Ostafiev (http://code.google.com/p/srp4net/)
      - SHA.js - SHA class that calculates various SHA hash values
              by Atsushi Oka (http://ats.oka.nu/titaniumcore/js/crypto/SHA.js)
              special thanks to Mr. Brian Turek (http://sourceforge.net/users/caligatio)
