@@ -7,7 +7,7 @@ Description:	Secure Remote Password protocol implementation in JavaScript and C#
 RFC:			http://www.ietf.org/rfc/rfc2945.txt
 Details:		http://srp.stanford.edu/ndss.html
 Author:			Sorin Ostafiev (http://code.google.com/p/srp4net/)
-License:		LGPL v3 (http://www.gnu.org/licenses/lgpl-3.0.txt)
+License:		GPL v3 (http://www.gnu.org/licenses/gpl-3.0.txt)
 
 The most important libraries used by this project:
      - jsSHA.js - A JavaScript implementation of the SHA family of hashes, as defined in FIPS PUB 180-2

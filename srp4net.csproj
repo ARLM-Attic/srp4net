@@ -65,6 +65,7 @@
     <Content Include="js\jsSHA.js" />
     <Content Include="js\misc.js" />
     <Content Include="js\SHA.js" />
+    <Content Include="license.txt" />
     <Content Include="readme.txt" />
     <Content Include="Web.config" />
     <Content Include="ws.asmx" />
