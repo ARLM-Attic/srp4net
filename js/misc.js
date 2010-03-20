@@ -17,9 +17,9 @@
 
 function compareTo(big1, big2)
 {
-    // -1 daca big1 < big2
-    // 1 daca big1 > big2
-    //0 daca sunt egale
+    // -1 if big1 < big2
+    //  1 if big1 > big2
+    //  0 if equal
     if (greater(big1, big2))
     {
         return 1;
